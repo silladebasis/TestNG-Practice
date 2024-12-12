@@ -1,0 +1,5 @@
+# Created at 2024-12-12T10:13:19.281
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Rohini\Web Automation\TestNGPractice\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

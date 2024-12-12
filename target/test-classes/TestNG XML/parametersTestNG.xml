@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Practice">
+    <test name="TestNG Basics">
+        <classes>
+            <class name="TestngBasics.HomePageTest">
+                <parameter name="email" value="testautomation1@gmail.com"/>
+                <parameter name="password" value="test@12345"/>
+                <methods>
+                    <include name="login.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

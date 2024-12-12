@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="14" failures="1" name="TestSuite" time="2.908" errors="0" skipped="13">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Rohini\Web Automation\TestNGPractice"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Rohini\Web Automation\TestNGPractice"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\debas\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Users\debas\AppData\Local\Programs\Python\Python39;C:\Users\debas\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\gradle\gradle-7.3.3\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Program Files\Allure\allure-2.13.8\bin;C:\Program Files\Snowflake SnowSQL\;C:\Users\debas\Desktop\Selenium\chromedriver_win32;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\debas\AppData\Local\Android\Sdk\platform-tools;C:\Users\debas\AppData\Local\Android\Sdk\cmdline-tools;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\debas\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\debas\AppData\Local\Programs\Python\Python39\;C:\Users\debas\AppData\Local\Microsoft\WindowsApps;C:\Users\debas\AppData\Local\GitHubDesktop\bin;C:\Users\debas\AppData\Local\Yarn\bin;C:\Users\debas\.dotnet\tools;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Users\debas\AppData\Local\Android\Sdk\platform-tools;C:\Users\debas\AppData\Local\Android\Sdk\tools;C:\Program Files\sfdx\bin;C:\Users\debas\AppData\Roaming\npm;C:\Program Files\sf\bin;C:\Users\debas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\debas"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="user.name" value="debas"/>
+    <property name="java.class.path" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TestngBasics.DataProviderExampleTest" name="beforeTest" time="2.906">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1112)
+	at java.base/java.util.Map.of(Map.java:1365)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at TestngBasics.DataProviderExampleTest.beforeTest(DataProviderExampleTest.java:15)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@246ae04d
+Browser name is : null
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+  <testcase classname="TestngBasics.ContactUsTest" name="getContactTitleTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.ContactUsTest" name="sendMessageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.DataProviderDemoTest" name="dataProviderExample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.DataProviderDemoTest" name="dataProviderExample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.DataProviderExampleTest" name="dataProviderTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.DataProviderPojoTest" name="dataProviderExample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.DataProviderPojoTest" name="dataProviderExample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.HomePageTest" name="getSearchProductTitleTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.HomePageTest" name="getTitleTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.HomePageTest" name="loginToAppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.HomePageTest" name="loginToAppTestUsingParameters" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.ListenersExampleTest" name="listenersDemo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestngBasics.DataProviderExampleTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+</testsuite>

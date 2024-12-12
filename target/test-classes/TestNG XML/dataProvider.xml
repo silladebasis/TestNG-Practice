@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Practice">
+    <test name="TestNG Basics">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="url" value="http://www.automationpractice.pl/index.php?controller=authentication&amp;back=my-account"/>
+        <parameter name="username" value="testautomation1@gmail.com"/>
+        <parameter name="password" value="test@12345"/>
+        <classes>
+            <class name="TestngBasics.DataProviderExampleTest"/>
+        </classes>
+    </test>
+</suite>

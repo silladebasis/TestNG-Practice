@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search Product Tests">
+    <parameter name="browserName" value="Chrome"/>
+    <test name="Title of Search Page">
+        <classes>
+            <class name="TestngBasics.AnnotationsTests"/>
+        </classes>
+    </test>
+</suite>
+
+<!-- Order of TestNg Annotations
+1. Before Suite
+2. Before Test
+3. Before Class
+4. Before Method
+5. After Method
+6. After Class
+7. After Test
+8. After Suite
+-->

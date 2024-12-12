@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-12T10:13:19 EST" name="Search Product Tests" finished-at="2024-12-12T10:13:29 EST" duration-ms="9888">
+    <groups>
+      <group name="Title">
+        <method signature="AnnotationsTests.getSearchProductTitleTest()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" name="getSearchProductTitleTest" class="TestngBasics.AnnotationsTests"/>
+      </group> <!-- Title -->
+    </groups>
+    <test started-at="2024-12-12T10:13:19 EST" name="Title of Search Page" finished-at="2024-12-12T10:13:29 EST" duration-ms="9888">
+      <class name="TestngBasics.AnnotationsTests">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:19 EST" name="beforeSuite" finished-at="2024-12-12T10:13:19 EST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:19 EST" name="setUp" finished-at="2024-12-12T10:13:21 EST" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:21 EST" name="beforeClass" finished-at="2024-12-12T10:13:21 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="navigateToApp()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:21 EST" name="navigateToApp" finished-at="2024-12-12T10:13:25 EST" duration-ms="3573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="getSearchProductTitleTest()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:25 EST" name="getSearchProductTitleTest" finished-at="2024-12-12T10:13:26 EST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchProductTitleTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:26 EST" name="closeTest" finished-at="2024-12-12T10:13:26 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method is-config="true" signature="navigateToApp()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:26 EST" name="navigateToApp" finished-at="2024-12-12T10:13:26 EST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="searchProduct()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:26 EST" name="searchProduct" finished-at="2024-12-12T10:13:29 EST" duration-ms="3146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:29 EST" name="closeTest" finished-at="2024-12-12T10:13:29 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:29 EST" name="afterClass" finished-at="2024-12-12T10:13:29 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestngBasics.AnnotationsTests@7c729a55]" started-at="2024-12-12T10:13:29 EST" name="tearDown" finished-at="2024-12-12T10:13:29 EST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestngBasics.AnnotationsTests -->
+    </test> <!-- Title of Search Page -->
+  </suite> <!-- Search Product Tests -->
+</testng-results>

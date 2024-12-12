@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Practice" parallel="tests" thread-count="2">
+    <parameter name="browserName" value="Chrome"/>
+    <test name="Home Page Tests">
+        <classes>
+            <class name="TestngBasics.HomePageTest">
+                <methods>
+                    <exclude name="loginToAppTestUsingParameters"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Contact Us Tests">
+        <classes>
+            <class name="TestngBasics.ContactUsTest">
+                <methods>
+                    <include name="sendMessageTest"/>
+                    <include name="getContactTitleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
