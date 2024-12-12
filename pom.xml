@@ -93,6 +93,7 @@
                             </systemPropertyVariables>
                             <suiteXmlFiles>
                                 <file>src/test/resources/TestNG XML/SearchProduct.xml</file>
+                                <file>src/test/resources/TestNG XML/listeners.xml</file>
                             </suiteXmlFiles>
                             <threadCount>5</threadCount>
                             <reportsDirectory>target/test-output</reportsDirectory>
